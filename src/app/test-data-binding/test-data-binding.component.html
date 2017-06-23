@@ -1,3 +1,3 @@
-<p>
-  test-data-binding works!
-</p>
+<input type="text" class="form-control" [(ngModel)] = "userName">
+<p>{{ userName }}</p>
+<button class="btn btn-primary" [disabled]="userName === ''" (click)="onResetString()">Reset Username</button>

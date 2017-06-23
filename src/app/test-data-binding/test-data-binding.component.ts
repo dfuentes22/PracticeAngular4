@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./test-data-binding.component.css']
 })
 export class TestDataBindingComponent implements OnInit {
+	userName = '';
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onResetString() {
+  	this.userName = '';
   }
 
 }
