@@ -8,6 +8,7 @@ import { ServersComponent } from './servers/servers.component';
 import { WarningComponent } from './warning/warning.component';
 import { SuccessComponent } from './success/success.component';
 import { TestDataBindingComponent } from './test-data-binding/test-data-binding.component';
+import { DetailsComponent } from './details/details.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { TestDataBindingComponent } from './test-data-binding/test-data-binding.
     ServersComponent,
     WarningComponent,
     SuccessComponent,
-    TestDataBindingComponent
+    TestDataBindingComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule, FormsModule

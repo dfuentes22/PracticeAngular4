@@ -1,0 +1,8 @@
+<button class="btn btn-primary" (click)="onToggleDetails()">Display Details</button>
+<p *ngIf="isVisible">Secret Password = Tuna!</p>
+<div 
+*ngFor="let click of log"
+[ngStyle]="{backgroundColor: click >= 5 ? 'blue' : 'transparent'}"
+[ngClass]="{'white-text': click >= 5}"
+>{{click}}</div>
+
